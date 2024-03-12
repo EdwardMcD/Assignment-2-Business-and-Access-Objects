@@ -1,3 +1,11 @@
+/*************************************************
+ File: JUnitTestCases.java
+ By: Edward McDonald
+ Date: March 11th, 2024
+ Compile: -
+ Description: JUnit test cases for Assignment 2
+ *************************************************/
+
 import A2_BaAO.*;
 
 import static org.junit.Assert.*;

@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+File: pom.xml
+By: Edward McDonald
+Date: March 11th, 2024
+Compile: -
+Description: pom.xml file for Assignment 2
+-->
+
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">

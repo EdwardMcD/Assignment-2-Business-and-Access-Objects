@@ -1,3 +1,11 @@
+/*************************************************
+ File: TransactionDTO.java
+ By: Edward McDonald
+ Date: March 11th, 2024
+ Compile: -
+ Description: DTO for Transaction Business Object
+ *************************************************/
+
 package A2_BaAO.dto;
 
 import java.util.Date;

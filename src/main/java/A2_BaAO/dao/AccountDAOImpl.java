@@ -1,3 +1,11 @@
+/*************************************************
+ File: AccountDAOImpl.java
+ By: Edward McDonald
+ Date: March 11th, 2024
+ Compile: -
+ Description: Implementation of the Account DAO
+ *************************************************/
+
 package A2_BaAO.dao;
 
 import A2_BaAO.dto.AccountDTO;

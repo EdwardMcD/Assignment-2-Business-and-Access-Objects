@@ -1,3 +1,11 @@
+/*************************************************
+ File: Transaction.java
+ By: Edward McDonald
+ Date: March 11th, 2024
+ Compile: -
+ Description: Transaction Business Object
+ *************************************************/
+
 package A2_BaAO;
 
 import java.util.Date;

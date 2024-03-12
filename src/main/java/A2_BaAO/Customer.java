@@ -1,3 +1,11 @@
+/*************************************************
+ File: Customer.java
+ By: Edward McDonald
+ Date: March 11th, 2024
+ Compile: -
+ Description: Customer Business Object
+ *************************************************/
+
 package A2_BaAO;
 
 import java.util.ArrayList;

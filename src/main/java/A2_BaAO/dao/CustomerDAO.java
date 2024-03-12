@@ -1,3 +1,11 @@
+/*************************************************
+ File: CustomerDAO.java
+ By: Edward McDonald
+ Date: March 11th, 2024
+ Compile: -
+ Description: Customer DAO interface
+ *************************************************/
+
 package A2_BaAO.dao;
 
 import A2_BaAO.dto.CustomerDTO;

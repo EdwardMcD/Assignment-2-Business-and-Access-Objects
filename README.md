@@ -45,20 +45,24 @@ Directories:
             └── JUnitTestCases.java
 
 .../Assignment-2-Business-and-Access-Objects/src/main/java/A2_BaAO/
-This directory contains the main java files, as well as two subfolders dto/ and dao/ which contain the business object dtos and daos respectively.
+	This directory contains the main java files, as well as two subfolders dto/ and dao/ which contain the business object dtos and daos respectively.
 
 .../Assignment-2-Business-and-Access-Objects/src/main/resources/
 .../Assignment-2-Business-and-Access-Objects/
-These directories contain banked.db. This is the database I will be using for this assignment. I am managing this database with SQLite.
+	These directories contain banked.db. This is the database I will be using for this assignment. I am managing this database with SQLite.
 
 .../Assignment-2-Business-and-Access-Objects/src/test/java/
-This directory contains the JUnit test cases.
+	This directory contains the JUnit test cases.
 
 
-Operation:
+Business Objects:
 
+I have included 3 business objects, the minimum per the Professors in-class instructions:
+	Account.java
+	Customer.java
+	Transation.java
 
-
+Account:
 
 
 

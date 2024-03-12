@@ -1,3 +1,11 @@
+/*************************************************
+ File: CustomerDTO.java
+ By: Edward McDonald
+ Date: March 11th, 2024
+ Compile: -
+ Description: DTO for Customer Business Object
+ *************************************************/
+
 package A2_BaAO.dto;
 
 public class CustomerDTO {

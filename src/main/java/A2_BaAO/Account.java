@@ -1,3 +1,11 @@
+/*************************************************
+ File: Account.java
+ By: Edward McDonald
+ Date: March 11th, 2024
+ Compile: -
+ Description: Account Business object
+ *************************************************/
+
 package A2_BaAO;
 
 public class Account implements Comparable<Account> {

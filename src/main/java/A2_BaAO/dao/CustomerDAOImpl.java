@@ -1,3 +1,11 @@
+/*************************************************
+ File: CustomerDAOImpl.java
+ By: Edward McDonald
+ Date: March 11th, 2024
+ Compile: -
+ Description: Implementation for Customer DAO
+ *************************************************/
+
 package A2_BaAO.dao;
 
 import A2_BaAO.dao.CustomerDAO;

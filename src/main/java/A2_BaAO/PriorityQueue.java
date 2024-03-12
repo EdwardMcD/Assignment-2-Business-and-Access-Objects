@@ -1,3 +1,11 @@
+/*************************************************
+ File: PriorityQueue.java
+ By: Edward McDonald
+ Date: March 11th, 2024
+ Compile: -
+ Description: Priority queue data structure for Assignment 2
+ *************************************************/
+
 package A2_BaAO;
 
 public class PriorityQueue<T extends Comparable<T>> {
