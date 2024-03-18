@@ -37,7 +37,7 @@ public class JUnitTestCases {
     @Before
     public void setUp() {
         // Initialize objects for testing
-        customer = new Customer(1, "John Doe", "JDoe", "john@example.com", "password", new Date());
+        customer = new Customer(1, "John Doe", "john@example.com", "password", new Date());
         account = new Account(1, 1000.0, "Savings", customer);
         transaction = new Transaction(1, 1, 500.0, "Deposit", new Date());
     }
@@ -75,7 +75,7 @@ public class JUnitTestCases {
 
     @Test
     public void testAddAccountToCustomer() {
-        Customer newCustomer = new Customer(2, "Jane Smith", "JSmith", "jane@example.com", "password", new Date());
+        Customer newCustomer = new Customer(2, "Jane Smith", "jane@example.com", "password", new Date());
         Account newAccount = new Account(2, 2000.0, "Checking", newCustomer);
 
         newCustomer.addAccount(newAccount);
@@ -104,7 +104,7 @@ public class JUnitTestCases {
 
     @Test
     public void testCustomerAddMultipleAccounts() {
-        Customer customer = new Customer(1, "John Doe", "JDoe", "john@example.com", "password", new Date());
+        Customer customer = new Customer(1, "John Doe", "john@example.com", "password", new Date());
 
         // Create multiple accounts
         Account account1 = new Account(1, 1000.0, "Savings", customer);
@@ -130,7 +130,7 @@ public class JUnitTestCases {
     @Test
     public void testCompareCustomersBasedOnCreationDate() {
         // Create the first customer with the current date
-        Customer customer = new Customer(1, "John Doe", "JDoe", "john@example.com", "password", new Date());
+        Customer customer = new Customer(1, "John Doe", "john@example.com", "password", new Date());
 
         // Pause
         try {
@@ -141,7 +141,7 @@ public class JUnitTestCases {
 
         // Create the second customer with a later date
         Date laterDate = new Date();
-        Customer newerCustomer = new Customer(2, "Jane Doe", "JDoe", "jane@example.com", "password", laterDate);
+        Customer newerCustomer = new Customer(2, "Jane Doe", "jane@example.com", "password", laterDate);
 
         // Assert that the first customer's creation date is earlier than the second customer's
         assertTrue(customer.compareTo(newerCustomer) < 0);

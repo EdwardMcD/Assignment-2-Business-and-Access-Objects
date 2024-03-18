@@ -55,6 +55,7 @@ public class AccountDAOImpl implements AccountDAO {
 
     @Override
     public void insert(AccountDTO account) {
+        // Implement the insert method to insert a new account into the database
         try (PreparedStatement statement = connection.prepareStatement("INSERT INTO accounts (accountId, balance, type, customerId) VALUES (?, ?, ?, ?)")) {
             statement.setInt(1, account.getAccountId());
             statement.setDouble(2, account.getBalance());
@@ -68,6 +69,7 @@ public class AccountDAOImpl implements AccountDAO {
 
     @Override
     public void update(AccountDTO account) {
+        // Implement the update method to update an existing account in the database
         try (PreparedStatement statement = connection.prepareStatement("UPDATE accounts SET balance = ?, type = ?, customerId = ? WHERE accountId = ?")) {
             statement.setDouble(1, account.getBalance());
             statement.setString(2, account.getType());
@@ -81,6 +83,7 @@ public class AccountDAOImpl implements AccountDAO {
 
     @Override
     public void delete(AccountDTO account) {
+        // Implement the delete method to delete an account from the database
         try (PreparedStatement statement = connection.prepareStatement("DELETE FROM accounts WHERE accountId = ?")) {
             statement.setInt(1, account.getAccountId());
             statement.executeUpdate();
@@ -89,6 +92,7 @@ public class AccountDAOImpl implements AccountDAO {
         }
     }
 
+    // Helper method to extract account details from ResultSet
     private AccountDTO extractAccountFromResultSet(ResultSet resultSet) throws SQLException {
         int accountId = resultSet.getInt("accountId");
         double balance = resultSet.getDouble("balance");

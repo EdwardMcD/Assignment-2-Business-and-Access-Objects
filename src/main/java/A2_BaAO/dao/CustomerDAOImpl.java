@@ -93,10 +93,9 @@ public class CustomerDAOImpl implements CustomerDAO {
     private CustomerDTO extractCustomerFromResultSet(ResultSet resultSet) throws SQLException {
         int customerId = resultSet.getInt("customerId");
         String name = resultSet.getString("name");
-        String username = resultSet.getString("username");
         String email = resultSet.getString("email");
         String password = resultSet.getString("password");
 
-        return new CustomerDTO(customerId, name, username, email, password);
+        return new CustomerDTO(customerId, name, email, password);
     }
 }
