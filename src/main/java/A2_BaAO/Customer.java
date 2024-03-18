@@ -15,6 +15,7 @@ public class Customer implements Comparable<Customer> {
     // Attributes
     private int customerId;
     private String name;
+    private String username;
     private String email;
     private String password;
     private ArrayList<Account> accounts;
@@ -24,9 +25,10 @@ public class Customer implements Comparable<Customer> {
         // Default Jackson constructor
     }
 
-    public Customer(int customerId, String name, String email, String password, Date creationDate) {
+    public Customer(int customerId, String name, String username, String email, String password, Date creationDate) {
         this.customerId = customerId;
         this.name = name;
+        this.username = username;
         this.email = email;
         this.password = password;
         this.accounts = new ArrayList<>();
@@ -43,6 +45,10 @@ public class Customer implements Comparable<Customer> {
 
     public String getName() {
         return name;
+    }
+
+    public String getUsername() {
+        return username;
     }
 
     public void setName(String name) {

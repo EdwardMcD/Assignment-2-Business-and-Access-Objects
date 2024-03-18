@@ -11,12 +11,14 @@ package A2_BaAO.dto;
 public class CustomerDTO {
     private int customerId;
     private String name;
+    private String username;
     private String email;
     private String password;
 
-    public CustomerDTO(int customerId, String name, String email, String password) {
+    public CustomerDTO(int customerId, String name, String username, String email, String password) {
         this.customerId = customerId;
         this.name = name;
+        this.username = username;
         this.email = email;
         this.password = password;
     }
@@ -32,6 +34,14 @@ public class CustomerDTO {
 
     public String getName() {
         return name;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public void setName(String name) {
